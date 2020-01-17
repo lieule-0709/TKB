@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:weightSum="10"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#75E63E"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_span="6"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:background="#75E63E"
+            android:padding="5dp"
+            android:text="THỜI KHÓA BIỂU"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F15145"
+        android:gravity="center"
+        >
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textColor="#253444"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Monday"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textColor="#253444"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Tueday"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textColor="#253444"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Wednesday"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textColor="#253444"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Thursday"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textColor="#253444"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="friday"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+        <TextView
+            android:gravity="center"
+            android:background="@drawable/cell_shape"
+            android:textColor="#253444"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="saturtay"
+            android:textStyle="bold"
+            android:textSize="20sp">
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_weight="4"
+        android:layout_height="0dp"
+        android:background="#A87B96E6"
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            android:gravity="center"
+            android:text="TH.Vi Điều khiển\n1-4 (37-39)\nC204"
+            >
+        </TextView>
+        <TextView
+            android:background="@drawable/cell"
+            android:layout_height="match_parent"
+            android:textColor="#111"
+            android:gravity="center"
+            android:text="Mạng Máy Tính\n1-3\nF308"
+            >
+        </TextView>
+        <TextView
+            android:background="@drawable/cell"
+            android:layout_height="match_parent"
+            android:textColor="#111"
+            android:gravity="center"
+            android:text="PT-TK HTTT\nF302 (3/2)\nVi Điều Khiển"
+            >
+        </TextView>
+        <TextView
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="CN Phần mềm\n1-3\nH203"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            android:gravity="center"
+            android:text="ĐA LTHT-VĐK\n4-5\nXP"
+            >
+        </TextView>
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="#CDF5E659"
+        >
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:gravity="center"
+            android:textColor="#111"
+            android:text="KT Truyền số liệu\n6-8\nF308"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            android:gravity="center"
+            android:text="NN Hình Thức\n6-8\nH206"
+            >
+        </TextView>
+        <TextView
+            android:layout_height="match_parent"
+            android:background="@drawable/cell"
+            android:textColor="#111"
+            >
+        </TextView>
+
+
+
+
+    </TableRow>
+
+
+</TableLayout>
